@@ -143,13 +143,11 @@ lib/
 
 This project is created for educational purposes as a college-level project.
 
-## Author
-
-Smart Travel Planner - Flutter Project
 
 ## Acknowledgments
 
 - OpenTripMap API for destination data
 - OpenWeatherMap API for weather information
 - Unsplash API for destination images
+
 
