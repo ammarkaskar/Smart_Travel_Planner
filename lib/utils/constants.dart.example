@@ -1,0 +1,27 @@
+class ApiConstants {
+  // opentripmap for places data
+  static const String openTripMapBaseUrl =
+      'https://api.opentripmap.io/0.1/en/places';
+  static const String openTripMapApiKey =
+      'YOUR_OPENTRIPMAP_API_KEY';
+
+  // openweathermap for weather info
+  static const String openWeatherMapBaseUrl =
+      'https://api.openweathermap.org/data/2.5';
+  static const String openWeatherMapApiKey =
+      'YOUR_OPENWEATHER_API_KEY';
+
+  // unsplash for destination images
+  static const String unsplashBaseUrl = 'https://api.unsplash.com';
+  static const String unsplashAccessKey =
+      'YOUR_UNSPLASH_ACCESS_KEY';
+}
+
+class AppConstants {
+  static const String appName = 'Smart Travel Planner';
+  static const String sharedPrefsUserKey = 'user_data';
+  static const String sharedPrefsAuthKey = 'is_authenticated';
+  static const String dbName = 'travel_planner.db';
+  static const int dbVersion = 1;
+}
+
